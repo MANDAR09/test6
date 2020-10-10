@@ -63,7 +63,7 @@ So basically it is a tool that enables multiple side-by-side installations of Py
 
 
 8. Python virtual environment more reference links.
-    * Packaging Python: https://docs.nextcloud.com/server/stable/developer_manual/
+    * Packaging Python: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
     * Flask Palletsprojects: https://flask.palletsprojects.com/en/1.1.x/installation/
     * Liquidweb: https://www.liquidweb.com/kb/how-to-setup-a-python-virtual-environment-on-windows-10/
 
