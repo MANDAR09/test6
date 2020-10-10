@@ -71,10 +71,10 @@ So basically it is a tool that enables multiple side-by-side installations of Py
 ### Step 3: Install Flask
  Within the activated environment, use the following command to install Flask:
 
-    `pip install Flask`
+    pip install Flask
 
 ### Step 4: Create a applcation
-So, let's build the most simplest hello world application.
+Build the most simplest hello world application.
 
 #### Follow these steps:
 
@@ -110,9 +110,9 @@ So, let's build the most simplest hello world application.
             return "Hello, World!"
      ```
 
-2. start the server
+2. Start the server
 
-        `Python <File Name>.py`
+        Python <File Name>.py
     
 ### Step 3: Reference links
 
