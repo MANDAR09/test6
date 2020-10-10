@@ -116,7 +116,7 @@ Build the most simplest hello world application.
     
 ### Step 3: Reference links
 
-0. Python virtual environment more reference links.
+0. Python virtual environment & simplest flask hello world application more reference links.
     * Packaging Python: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
     * Flask Palletsprojects: https://flask.palletsprojects.com/en/1.1.x/installation/
     * Liquidweb: https://www.liquidweb.com/kb/how-to-setup-a-python-virtual-environment-on-windows-10/
