@@ -89,18 +89,18 @@ Build the most simplest hello world application.
     
     * We then use the route() decorator to tell Flask what URL should trigger our function.The function is given a name which is also used to generate URLs for that particular function, and returns the message we want to display in the user’s browser.
     
-     ```
+        ```
         @app.route("/")
         def hello():
             return "Hello, World!"
-     ```
+        ```
     
     Make sure to not call your application flask.py because this would conflict with Flask itself.
     
     
     To run the application you can either use the flask command or python’s -m switch with Flask. Before you can do that you need to tell your terminal the application to work with by exporting the FLASK_APP environment variable:
     
-     ```
+        ```
         from flask import Flask
 
         app = Flask(__name__)
@@ -108,7 +108,7 @@ Build the most simplest hello world application.
         @app.route("/")
         def hello():
             return "Hello, World!"
-     ```
+        ```
 
 2. Start the server
 
