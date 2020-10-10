@@ -81,18 +81,18 @@ So, let's build the most simplest hello world application.
 1. As, you are already present in the myproject folder. Create a file `hello.py' and write the below code.
     * Import the Flask class. An instance of this class will be our WSGI application.
     
-    `from flask import Flask`
+        `from flask import Flask`
     
     * Next we create an instance of this class. The first argument is the name of the application’s module or package. If you are using a single module (as in this example), you should use __ name __ because depending on if it’s started as application or imported as module the name will be different ('main' versus the actual import name). This is needed so that Flask knows where to look for templates, static files, and so on.
     
-    `app = Flask(__ name __)`
+        `app = Flask(__ name __)`
     
     * We then use the route() decorator to tell Flask what URL should trigger our function.The function is given a name which is also used to generate URLs for that particular function, and returns the message we want to display in the user’s browser.
     
      ```
-    @app.route("/")
-    def hello():
-        return "Hello, World!"
+        @app.route("/")
+        def hello():
+            return "Hello, World!"
      ```
     
     Make sure to not call your application flask.py because this would conflict with Flask itself.
@@ -101,16 +101,18 @@ So, let's build the most simplest hello world application.
     To run the application you can either use the flask command or python’s -m switch with Flask. Before you can do that you need to tell your terminal the application to work with by exporting the FLASK_APP environment variable:
     
      ```
-    @app.route("/")
-    def hello():
-        return "Hello, World!"
-     ```
-    `app = Flask(__ name __)`
+        from flask import Flask
 
+        app = Flask(__name__)
+
+        @app.route("/")
+        def hello():
+            return "Hello, World!"
+     ```
 
 2. start the server
 
-    `Python <File Name>.py`
+        `Python <File Name>.py`
     
 ### Step 3: Reference links
 
