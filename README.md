@@ -2,7 +2,7 @@
 
 ## Python3 Virtual Environment For Windows 10
 
-[Installing python on different OS](https://www.python.org/downloads/)
+[Installing python on Windows OS](https://www.python.org/downloads/)
 
 A Virtual Environment is a python environment, that is an isolated working copy of Python which allows you to work on a specific project without affecting other projects
 So basically it is a tool that enables multiple side-by-side installations of Python, one for each project.
