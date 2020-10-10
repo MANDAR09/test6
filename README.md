@@ -69,7 +69,7 @@ So basically it is a tool that enables multiple side-by-side installations of Py
     `virtualenv --system-site-packages <virtname>`
 
 ### Step 3: Install Flask
-0. Within the activated environment, use the following command to install Flask:
+ Within the activated environment, use the following command to install Flask:
 
     `pip install Flask`
 
@@ -120,7 +120,6 @@ So, let's build the most simplest hello world application.
     * Packaging Python: https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/
     * Flask Palletsprojects: https://flask.palletsprojects.com/en/1.1.x/installation/
     * Liquidweb: https://www.liquidweb.com/kb/how-to-setup-a-python-virtual-environment-on-windows-10/
-    
     * Timmyreilly: https://timmyreilly.azurewebsites.net/python-flask-windows-development-environment-setup/
     * Flask Palletsprojects: https://flask.palletsprojects.com/en/1.0.x/
     * Flask Palletsprojects: https://flask.palletsprojects.com/en/1.0.x/quickstart/
